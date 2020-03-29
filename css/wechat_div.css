@@ -2,31 +2,32 @@ div{margin: 0px;}
 #box{
 	position:fixed;
 	right:0px;
-	z-index:999;
+	z-index:9;
 	bottom:0px;
 }
 @media (min-width: 901px){#login-box{display:block;}}
 @media (min-width: 1620px){#login-box{right:0px;}}
 
-.wechat-btn{
+#wechat-btn-img{
 	width:30px;
 	height:30px;
 	line-height:30px;
 	background-color:#49b1f5;
 }
-.wechat-btn:hover{
-	background-color:#ff7242;
-}
+
 
 #wechat-box{
-	padding-bottom: 5px;
+	position:relative;
 	width:200px;
+	height:270px;
 	font-size:1em;
 	text-align:center;
 	margin-bottom: -30px;
 	margin-left: -205px;
 	line-height:25px;
-	background-color:#FFF;
 	border-radius:5px;
 	box-shadow:0px 3px 5px rgba(0,0,0,0.2);
+}
+#wechat-box>p{
+	color:#666 !important;
 }
