@@ -644,7 +644,7 @@ $(function () {
     document.body.oncopy = function (event) {
       event.preventDefault()
       let textFont; const copyFont = window.getSelection(0).toString()
-      if (copyFont.length > 45) {
+      if (copyFont.length > 15) {
         textFont = copyFont + '\n' + '\n' + '\n' +
           copyright.languages.author + '\n' +
           copyright.languages.link + '\n' +
