@@ -1,3 +1,4 @@
+html {-webkit-filter: grayscale(100%);filter:progid:DXImageTransform.Microsoft.BasicImage(graysale=1);}
 div{margin: 0px;}
 #box{
 	position:fixed;
